@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+}
+@font-face{
+    font-family: myFont;
+    src: url(./Jersey_10/Jersey10-Regular.ttf);
+}
+h1,h3{
+    color: aqua;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+    /* gap: 20px; */
+}
+.box{
+    background-color: black;
+    color: aqua;
+    height: 160px;
+    width:160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: myFont;
+    font-size: 120px;
+    
+}
+#am_pm{
+    font-size: 40px;
+    margin: 0 0 50px 20px;
+    color: aqua;
+    font-family: myFont;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background-color: black;
+    flex-direction: column;
+}
+.main1{
+    display: flex ;
+    gap: 20px;
+    position: absolute;
+    margin-top:60px ;
+}
+
+.dd{
+    color: aqua;
+    font-size: 30px;
+    /* position: absolute; */
+    margin-top: 150px;
+}
+
+@media screen and (max-width:753px){
+    .box{
+        width: 100px;
+        font-size:  50px;
+    }
+    #am_pm{
+        font-size: 30px;
+    }
+    .dd{
+        font-size: 10px;
+    }
+}
